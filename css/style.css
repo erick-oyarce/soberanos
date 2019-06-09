@@ -407,6 +407,12 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-home, #fh5co-home .text-wrap {
   height: 900px;
 }
+@media screen and (max-width: 768px) {
+  #fh5co-home, #fh5co-home .text-wrap{
+    height: 700px;
+    
+  }
+}
 #fh5co-home .text-wrap {
   display: table;
   width: 100%;
@@ -420,8 +426,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-home .text-inner{
-    padding-bottom: 200px;
+  #fh5co-home .text-wrap{
+    padding-bottom: 300px;
     
   }
 }
